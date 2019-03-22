@@ -29,7 +29,7 @@ public class PortalAdapter extends RecyclerView.Adapter<PortalAdapter.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull PortalAdapter.ViewHolder viewHolder, int i) {
         Portal portal = mPortals.get(i);
-        if(portal != null) viewHolder.textView.setText(portal.getTitle());
+        if(portal != null) viewHolder.textView.setText(portal.getmPortalText());
     }
 
     @Override
